@@ -6,9 +6,9 @@ A couple of simple introductory examples for using Python Selenium.
 
 Related reference links:
 
-- [Python] (https://python.org)
-- [Selenium Docs] (https://selenium-python.readthedocs.io/api.html)
-- [Locating Elements] (https://selenium-python.readthedocs.io/locating-elements.html?highlight=find_element#locating-elements)
+- [Python](https://python.org)
+- [Selenium Docs](https://selenium-python.readthedocs.io/api.html)
+- [Locating Elements](https://selenium-python.readthedocs.io/locating-elements.html?highlight=find_element#locating-elements)
 
 
 
