@@ -28,7 +28,7 @@ for result in result_els:
         score_el = result.find_element_by_class_name('bui-review-score__badge')
         reviews_el = result.find_element_by_class_name('bui-review-score__text')
         print( name_el.text )
-        print( '{} stars'.format(stars_el.get_attribute('aria-label')) )
+        print( f"{stars_el.get_attribute('aria-label')} stars" )
         print( reviews_el.get_attribute('innerHTML').strip() )
         print( score_el.get_attribute('innerHTML').strip() ) 
         print('---------------')
