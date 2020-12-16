@@ -9,7 +9,7 @@ Related reference links:
 - [Python](https://python.org)
 - [Selenium Docs](https://selenium-python.readthedocs.io/api.html)
 - [Locating Elements](https://selenium-python.readthedocs.io/locating-elements.html?highlight=find_element#locating-elements)
-- [Github Repo](https://github.com/MississaugaCoding/try-py-sel)
+
 
 
 
