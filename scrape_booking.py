@@ -21,16 +21,16 @@ time.sleep(1)
 # read results
 result_els = browser.find_elements_by_css_selector('div.sr_item')
 for result in result_els:    
-    name = result.find_element_by_class_name('sr-hotel__name')
+    name_el = result.find_element_by_class_name('sr-hotel__name')
 
     try:
-        stars = result.find_element_by_class_name('bui-rating')
-        score = result.find_element_by_class_name('bui-review-score__badge')
-        reviews = result.find_element_by_class_name('bui-review-score__text')
-        print( name.text )
-        print( '{} stars'.format(stars.get_attribute('aria-label')) )
-        print( reviews.get_attribute('innerHTML').strip() )
-        print( score.get_attribute('innerHTML').strip() ) 
+        stars_el = result.find_element_by_class_name('bui-rating')
+        score_el = result.find_element_by_class_name('bui-review-score__badge')
+        reviews_el = result.find_element_by_class_name('bui-review-score__text')
+        print( name_el.text )
+        print( '{} stars'.format(stars_el.get_attribute('aria-label')) )
+        print( reviews_el.get_attribute('innerHTML').strip() )
+        print( score_el.get_attribute('innerHTML').strip() ) 
         print('---------------')
     except:
         pass
