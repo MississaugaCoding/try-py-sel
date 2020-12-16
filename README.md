@@ -10,6 +10,8 @@ Related reference links:
 - [Selenium Docs](https://selenium-python.readthedocs.io/api.html)
 - [Locating Elements](https://selenium-python.readthedocs.io/locating-elements.html?highlight=find_element#locating-elements)
 
+- [Python freeCodeCamp](https://www.youtube.com/c/Freecodecamp/search?query=python)
+
 
 
 
